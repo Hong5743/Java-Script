@@ -1,0 +1,8 @@
+레스트rest 문법은 스프레드 문법과 똑같지만 기능적으로 그 반대이다.
+레스트는 여러 원소를 하나의 원소로 압축한다.
+const runners = ["Tom", "Paul", "Mark", "Luke"];
+const [first, second, ...losers] = runners;
+console.log(...losers);
+//Mark Luke
+
+처음 두 값은 first 와 second 변수에 저장하고, 나머지 원소는 레스트 연산자를 사용하여 losers 변수에 배열로 담는다.
