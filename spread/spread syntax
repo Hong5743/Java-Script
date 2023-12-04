@@ -1,0 +1,7 @@
+배열의 결합
+const veggie = ["tomato", "cucumber", "beans"];
+const meat = ["pork", "beef", "chicken"];
+
+const menu = [...veggie, "pasta", ...mear];
+console.log(menu);
+//["tomato, "cucumber", "beans", "pasta", "portk", "beef", "chicken"]
