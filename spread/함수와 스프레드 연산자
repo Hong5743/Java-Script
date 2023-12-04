@@ -1,0 +1,19 @@
+인수들을 원소로 가지는 배열에 스프레드 연산자를 사용하면 함수를 쉽게 호출할 수 있다.
+
+const name = ["Jon", "Paul", "Jones"];
+
+function greet(first, last) {
+  console.log(`Hello ${first} ${last}`);
+}
+greet(...name);
+//Hello Jon Paul
+
+let person = {
+  name : "Alberto",
+  surname: "Montalesi",
+  age: 25,
+};
+
+let clone = {...person};
+console.log(clone);
+//{name: "Alberto", surname: "Montalesi", age: 25}
