@@ -1,0 +1,9 @@
+const person = {
+  name: "Alberto",
+  greet: function() {
+    console.log("Hello");
+    },
+  };
+
+person.greet();
+//Hello
