@@ -5,8 +5,6 @@ fetch() 함수는 Promise를 반환하며, 이 Promise는 Response 객체를 포
 
 간단한 예제를 통해 fetch()를 살펴보겠습니다:
 
-javascript
-Copy code
 fetch('https://api.example.com/data')
   .then(response => {
     if (!response.ok) {
